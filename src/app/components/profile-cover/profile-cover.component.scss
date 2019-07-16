@@ -14,6 +14,7 @@
         background-position: center center;
         z-index: -1;
         transform: translate3d(0px, 0px, 0px);
+        filter: blur(6px);
     }
 
     .container {
@@ -24,8 +25,8 @@
 
         .content-center {
             position: absolute;
-            top: 30%;
-            left: 40%;
+            top: 20%;
+            left: 30%;
             max-width: 880px;
 
             .profile-image img {
@@ -46,5 +47,25 @@
 
 .category {
     color: #ffffff;
-    font-size: 18px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.btn-primary {
+    background-color: #43b1b0;
+    border: #43b1b0;
+    color: #FFFFFF !important;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btn-primary:hover, .btn-primary:active {
+    background-color: #7ececd;
+    border: #7ececd;
 }
