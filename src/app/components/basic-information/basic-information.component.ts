@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as AOS from 'aos';
 
 @Component({
   selector: 'basic-information',
@@ -10,6 +11,7 @@ export class BasicInformationComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    AOS.init()
   }
 
 }
