@@ -5,12 +5,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ProfileCoverComponent } from './components/profile-cover/profile-cover.component';
 import { BasicInformationComponent } from './components/basic-information/basic-information.component';
+import { ProfessionalSkillComponent } from './components/professional-skill/professional-skill.component';
+import { WorkExperienceComponent } from './components/work-experience/work-experience.component';
+import { ProgressBarComponent } from './components/progress-bar/progress-bar.component';
+import { EducationComponent } from './components/education/education.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProfileCoverComponent,
-    BasicInformationComponent
+    BasicInformationComponent,
+    ProfessionalSkillComponent,
+    WorkExperienceComponent,
+    ProgressBarComponent,
+    EducationComponent
   ],
   imports: [
     BrowserModule,
