@@ -9,6 +9,7 @@ import { ProfessionalSkillComponent } from './components/professional-skill/prof
 import { WorkExperienceComponent } from './components/work-experience/work-experience.component';
 import { ProgressBarComponent } from './components/progress-bar/progress-bar.component';
 import { EducationComponent } from './components/education/education.component';
+import { TopMenuComponent } from './components/top-menu/top-menu.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { EducationComponent } from './components/education/education.component';
     ProfessionalSkillComponent,
     WorkExperienceComponent,
     ProgressBarComponent,
-    EducationComponent
+    EducationComponent,
+    TopMenuComponent
   ],
   imports: [
     BrowserModule,

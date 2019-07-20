@@ -1,0 +1,32 @@
+.fixed-top {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 1000;
+}
+
+.navbar {
+    min-height: 53px;
+    padding: 10px;
+    display: flex !important;
+    text-transform: uppercase;
+}
+
+.navbar-transparent {
+    background-color: transparent !important;
+}
+
+.bg-nav {
+    background-color: #0483bb;
+}
+
+a.nav-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.nav-item {
+    margin-right: 5px;
+}
