@@ -10,6 +10,7 @@ import { WorkExperienceComponent } from './components/work-experience/work-exper
 import { ProgressBarComponent } from './components/progress-bar/progress-bar.component';
 import { EducationComponent } from './components/education/education.component';
 import { TopMenuComponent } from './components/top-menu/top-menu.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { TopMenuComponent } from './components/top-menu/top-menu.component';
     WorkExperienceComponent,
     ProgressBarComponent,
     EducationComponent,
-    TopMenuComponent
+    TopMenuComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

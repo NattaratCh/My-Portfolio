@@ -1,9 +1,19 @@
+
+
 .fixed-top {
     position: fixed;
     top: 0px;
     right: 0px;
     left: 0px;
     z-index: 1000;
+}
+
+.navbar, .mobile, .navbar-light {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1030;
 }
 
 .navbar {
@@ -23,10 +33,39 @@
 
 a.nav-link {
     text-decoration: none;
-    color: #ffffff;
+    color: #ffffff !important;
     font-size: 16px;
 }
 
 .nav-item {
     margin-right: 5px;
+}
+
+@media screen and (max-width: 991px) {
+    .desktop {
+        display: none !important;
+    }
+
+    .mobile {
+        display: block;
+
+        .navbar-collapse {
+            background-color: #1f98ce;
+            padding: 10px;
+        }
+
+        button.navbar-toggler {
+            border-color: transparent;
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .desktop {
+        display: block;
+    }
+
+    .mobile {
+        display: none !important;
+    }
 }

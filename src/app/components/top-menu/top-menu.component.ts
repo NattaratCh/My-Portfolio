@@ -7,6 +7,7 @@ import { Component, OnInit, HostListener } from '@angular/core';
 })
 export class TopMenuComponent implements OnInit {
   navBarClass = 'navbar-transparent'
+  isMobileMenuCollapse = true
 
   constructor() { }
 
@@ -20,5 +21,10 @@ export class TopMenuComponent implements OnInit {
     } else {
       this.navBarClass = 'navbar-transparent'
     }
+  }
+
+  toggleMenu() {
+    console.log('toggleMenu')
+    this.isMobileMenuCollapse = !this.isMobileMenuCollapse
   }
 }
