@@ -35,4 +35,5 @@ jobs:
           args: deploy --only hosting
         env:
           FIREBASE_TOKEN: AIzaSyDl7eCQzvFFTnKQ5NkHZnxU1N9LouOMVbA
-          PROJECT_ID: ning-profile
+          PROJECT_ID: project-11984847578
+
